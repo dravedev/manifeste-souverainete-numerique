@@ -1,0 +1,25 @@
+{
+  "name": "manifeste-souverainete-numerique",
+  "version": "1.0.0",
+  "description": "Manifeste pour la Souveraineté Numérique",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o _css/style.css",
+    "serve:dev": "browser-sync start --server \"_site\" --files \"_site/**/*.html, _site/**/*.css\""  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dravedev/manifeste-souverainete-numerique.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dravedev/manifeste-souverainete-numerique/issues"
+  },
+  "homepage": "https://github.com/dravedev/manifeste-souverainete-numerique#readme"
+}

@@ -1,0 +1,30 @@
+#url: "https://manifest.drave.dev"
+url: ""
+baseurl: ""
+
+# Site settings
+title: Drave Développement
+email: draveurs@drave.dev
+
+description: |- #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+    Manifeste de la souveraineté numérique
+
+# Build settings
+#markdown: kramdown
+#permalink: pretty
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - bin
+  - postcss.config.js
+  - tailwindcss.config.js
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - src
+  - test
