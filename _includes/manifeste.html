@@ -1,13 +1,13 @@
-<div class="container mx-auto p-4 bg-gray-100 rounded shadow text-gray-700">
+<div class="flex flex-col items-center max-w-4xl container mx-auto text-gray-700">
 {% for section in page.manifeste.sections %}
 
-  <div class="pb-8">
+  <div class="p-4 mb-4 bg-gray-100 min-w-full rounded shadow">
   {%if section.title %}
-    <h2 class="text-2xl text-gray-900 leading-none tracking-wide">{{ section.title }}</h2>
+    <h2 class="text-2xl text-gray-900 leading-none tracking-wide pb-4">{{ section.title }}</h2>
   {% endif %}
 
   {% for paragraphe in section.paragraphes %}
-    <p class="pt-4 sm:pt-2 text-gray-800 text-lg leading-tight tracking-wide">
+    <p class="pt-4 sm:pt-4 text-gray-800 text-lg leading-tight sm:leading-snug tracking-wide">
     {{ paragraphe }}
     </p>
  {% endfor %}
