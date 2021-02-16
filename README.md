@@ -4,7 +4,7 @@ Publication du manifeste
 
 ## Déploiement
 
-### Complilation des assets
+### Compilation des assets
 
     npm run build:css
 
