@@ -2,6 +2,8 @@
 
 Publication du manifeste
 
+https://manifeste.drave.dev
+
 ## Déploiement
 
 ### Compilation des assets
